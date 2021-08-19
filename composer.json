@@ -1,0 +1,24 @@
+{
+  "name": "mhzwj/easy-aliyun",
+  "description": "阿里云SDK",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "6.*|7.*",
+    "ext-json": "*",
+    "php-mqtt/client": "v1.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.*|9.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "mhzwj\\aliyun\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "mhzwj\\aliyun\\Tests\\": "tests/"
+    }
+  }
+}
